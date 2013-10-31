@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=originalArray\ extra
+comment0.target=java.lang.Object[]\ arrayPlus(java.lang.Object[],\ java.lang.Object)
+comment0.text=\n\ Constructs\ a\ new\ array\n\ @return\ newArray\ the\ created\ array\n
+comment1.params=originalArray
+comment1.target=java.lang.Object[]\ deleteFirstElement(java.lang.Object[])
+comment1.text=\n\ \n\ @return\ newArray\ \n
+comment2.params=
+comment2.target=double\ rand()
+comment2.text=\n\ Generates\ a\ pseudorandom\ number.\n\ @return\ random\ number\n
+comment3.params=x\ y
+comment3.target=int\ randInt(int,\ int)
+comment3.text=\n\ \n
+comment4.params=x\ y
+comment4.target=double\ randDouble(int,\ int)
+comment5.params=ms
+comment5.target=void\ delay(int)
+comment6.params=path
+comment6.target=java.awt.Image\ readImage(java.lang.String)
+numComments=7

@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.params=pokemonName\ fb
+comment0.target=PokemonAnimation(java.lang.String,\ java.lang.String)
+comment1.params=poke
+comment1.target=void\ setPokemonToolTip(Pokemon)
+numComments=2

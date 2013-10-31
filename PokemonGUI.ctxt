@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.params=
+comment0.target=PokemonGUI()
+comment1.params=
+comment1.target=void\ createUserGUI()
+comment2.params=e
+comment2.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment3.params=
+comment3.target=void\ beforeCommand()
+comment4.params=
+comment4.target=void\ afterCommand()
+comment5.params=counter
+comment5.target=void\ dispMessageInTicker(int)
+comment6.params=
+comment6.target=void\ generateSwitchFrame()
+comment7.params=
+comment7.target=javax.swing.JPanel\ createMovePane()
+comment8.params=
+comment8.target=javax.swing.JPanel\ createThrowPane()
+comment9.params=
+comment9.target=void\ clearActionPane()
+numComments=10

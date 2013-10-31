@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.params=
+comment0.target=StatDmg()
+comment1.params=baseStat\ IV\ EV\ level\ nat
+comment1.target=double[]\ calculateStats(double[],\ double[],\ double[],\ double,\ java.lang.String)
+comment2.params=level\ BasePower\ Atk\ Def\ critical\ STAB\ type1\ type2\ accuracy
+comment2.target=double\ damage(double,\ double,\ double,\ double,\ double,\ double,\ double,\ double,\ double)
+comment3.params=
+comment3.target=double\ critical()
+comment4.params=accuracy
+comment4.target=double\ accuracy(double)
+comment5.params=catchRate
+comment5.target=boolean\ catchPokemon(double)
+comment6.params=victim\ ballType
+comment6.target=double\ findCatchRate(Pokemon,\ java.lang.String)
+comment7.params=type1\ type2
+comment7.target=double\ typeEff(java.lang.String,\ java.lang.String)
+numComments=8

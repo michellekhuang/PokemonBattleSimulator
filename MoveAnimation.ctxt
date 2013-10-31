@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.params=
+comment0.target=MoveAnimation()
+comment1.params=movename
+comment1.target=void\ setMove(java.lang.String)
+numComments=2

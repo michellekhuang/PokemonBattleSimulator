@@ -1,0 +1,8 @@
+:Name:Pikachu
+:Type1:Electric
+:Type2:
+:BaseStat:0:0:0:0:0:0
+:CatchRate:190
+:Moveset:Thunderbolt:Thunder:Surf:Quick Attack
+:userImage:database\\sprites\\Pikachu\\DPbm.png
+:enemyImage:database\\sprites\\Pikachu\\DPf.png

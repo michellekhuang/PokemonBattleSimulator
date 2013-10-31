@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.params=pokem
+comment0.target=AnimatedHealthBar(Pokemon)
+comment1.params=hp
+comment1.target=void\ setHP(double)
+comment2.params=pokem
+comment2.target=void\ setPokemon(Pokemon)
+comment3.params=
+comment3.target=void\ animateHP()
+comment4.params=g
+comment4.target=void\ paintComponent(java.awt.Graphics)
+comment5.params=ms
+comment5.target=void\ delay(int)
+comment6.params=g\ x\ y\ poke
+comment6.target=void\ drawHealthBarBase(java.awt.Graphics,\ int,\ int,\ Pokemon)
+comment7.params=g\ x\ y\ poke
+comment7.target=void\ drawHealthBar(java.awt.Graphics,\ int,\ int,\ Pokemon)
+comment8.params=
+comment8.target=void\ animateHPThread()
+comment9.params=
+comment9.target=void\ run()
+numComments=10
