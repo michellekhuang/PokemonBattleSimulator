@@ -53,13 +53,14 @@ public class Animations extends JPanel implements Runnable
         Image[] allFrames = new Image[0];
         for(int i=1; i>0;i++)
         {
+            System.out.println(directory + i + extension);
             try
             {
-               oneFrame =  ImageIO.read(new File("" + directory + "//" + i + extension));
+               oneFrame =  ImageIO.read(new File(directory + i + extension));
             }
             catch(IOException e)
             {
-                break;//once an image cannot be read, stop loading
+                break; //once an image cannot be read, stop loading
             }
             allFrames = arrayPlus(allFrames, oneFrame); //adds oneFrame to the end of allFrames
         }
@@ -157,8 +158,9 @@ public class Animations extends JPanel implements Runnable
     private static Image[] arrayPlus(Image[] originalArray, Image extra)
     {
         Image[] newArray = new Image[1+originalArray.length];
-        for( int i = 0; i<originalArray.length; i++)
-        newArray[i] = originalArray[i];
+        for( int i = 0; i<originalArray.length; i++){
+            newArray[i] = originalArray[i];
+        }
         newArray[originalArray.length]=extra;
         return newArray;
     }

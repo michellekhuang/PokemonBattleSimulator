@@ -4,7 +4,7 @@ public class BGAnimation extends Animations
 {
     public BGAnimation()
     {
-        loadImages("sprites//background",".png");
+        loadImages("PokemonBattleSimulator/sprites/background/",".png");
         setFrameDelay(100);
         rescale(340,160);
     }
