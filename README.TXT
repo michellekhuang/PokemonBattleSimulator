@@ -3,6 +3,6 @@ PURPOSE OF PROJECT: Fun
 VERSION or DATE: 10/30/13
 HOW TO START THIS PROJECT: Open Package and run "runProgram".
 AUTHORS: Michelle Huang
-USER INSTRUCTIONS: File names are for Mac, to run on PC, must change “\\” in file names to “//“.
+USER INSTRUCTIONS: Loading images on UNIX vs. Windows machine require different pathnames.
 
 
