@@ -53,7 +53,6 @@ public class Animations extends JPanel implements Runnable
         Image[] allFrames = new Image[0];
         for(int i=1; i>0;i++)
         {
-            System.out.println(directory + i + extension);
             try
             {
                oneFrame =  ImageIO.read(new File(directory + i + extension));
@@ -271,7 +270,7 @@ class Animation
     
   public void setFrames(Image[] input)
   {
-     frames = input; 
+     frames = input;
      activeFrame = frames[0];
   }
 }

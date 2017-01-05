@@ -8,7 +8,7 @@ public class PokemonAnimation extends Animations
     public PokemonAnimation(String pokemonName, String fb)
     {
         frontback = fb;
-        loadImages("PokemonBattleSimulator/sprites/pokemon/" + pokemonName + "/IdleAnimation/" + frontback + "/", ".png");
+        loadImages(System.getProperty("user.dir") + "/sprites/pokemon/" + pokemonName + "/IdleAnimation/" + frontback + "/", ".png");
         setFrameDelay(85);
     }
     
